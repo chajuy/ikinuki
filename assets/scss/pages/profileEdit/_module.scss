@@ -1,0 +1,56 @@
+.profileEdit {
+  padding: 0 16px 26px;
+  &__title {
+    margin-top: 36px;
+    text-align: center;
+    color: $font-color-gray-strong;
+    font-size: $font-size-2extra-large;
+    line-height: 21px;
+    letter-spacing: -0.333333px;
+  }
+  &__avatar {
+    margin-top: 36px;
+    text-align: center;
+  }
+  &__avatarUpdate {
+    margin-top: 6px;
+    text-align: center;
+    >a {
+      color: $font-color-orange;
+    }
+  }
+  &__osusume {
+    margin-top: 6px;
+    text-align: center;
+    color: $font-color-red;
+    font-size: $font-size-xsamll;
+  }
+  &__form {
+    margin-top: 32px;
+    > li {
+      &:not(:first-child) {
+        margin-top: 16px;
+
+      }
+    }
+    &__row {
+      &__title {
+        font-size: $font-size-small;
+        color: $font-color-gray_strong;
+      }
+      &__input {
+        display: flex;
+        > li {
+          flex: 1;
+          &:not(:first-child) {
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+  }
+  &__submit {
+    margin-top: 36px;
+
+  }
+}

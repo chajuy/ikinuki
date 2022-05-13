@@ -9,6 +9,12 @@
 @import "./components/input";
 @import "./components/button";
 @import "./components/header";
+@import "./components/footer";
+@import "./components/icon";
+@import "./components/badge";
 
 //pages
 @import "./pages/login/module";
+@import "./pages/setup/module";
+@import "./pages/promise/module";
+@import "./pages/profileEdit/module";

@@ -1,0 +1,28 @@
+.badge {
+  display: inline-flex;
+  width: 74px;
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+  color: $font-color-white;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  line-height: 9px;
+  font-size: $font-size-xsamll;
+  border-radius:6px ;
+  &--green {
+    background-color: $background-color-green;
+  } 
+  &--yellow {
+    background-color: $background-color-yellow;
+  }
+  &--sky {
+    background-color: $background-color-sky;
+  } 
+  &--purple {
+    background-color: $background-color-purple;
+  }
+  &--blue {
+    background-color: $background-color-blue;
+  }     
+}

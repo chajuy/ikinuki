@@ -11,11 +11,18 @@
     &--large {
         width: 100%;
         height: 52px;
-        border-radius: 6px;
         font-size: $font-size-large;
         line-height: 16px;
-        font-weight: 900px;
+        font-weight: 900;
     }
+    &--medium {
+        width: 100%;
+        height: 42px;
+        font-size: $font-size-large;
+        line-height: 16px;
+        font-weight: 900;
+    }
+
 
     //color 
     &--submit {
@@ -29,6 +36,36 @@
         }
         &:active {
             color: $font-color-white;
+        }
+    }
+    &--flat_orange {
+        color: $font-color-orange;
+        border: 1px solid $border-color-orange;
+        border-radius: 6px;
+        background-color: $background-color-white;
+        &:link {
+            color: $font-color-orange;
+        }
+        &:visited {
+            color: $font-color-orange;
+        }
+        &:active {
+            color: $font-color-orange;
+        }
+    }
+    &--flat_gray {
+        color: $font-color-gray_strong;
+        border: 1px solid $border-color-gray-strong;
+        border-radius: 6px;
+        background-color: $background-color-white;
+        &:link {
+            color: $font-color-orange;
+        }
+        &:visited {
+            color: $font-color-orange;
+        }
+        &:active {
+            color: $font-color-orange;
         }
     }
 }

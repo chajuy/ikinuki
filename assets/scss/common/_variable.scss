@@ -6,9 +6,23 @@ $white: #fff;
 $gray_strong: #50555c;
 $white_gray: #c4c4c4;
 
+$yellow: #ffcd1a;
+$green: #01b213;
+$sky: #1ac8ff;
+$purple: #d839f2;
+$blue: #0168b3;
+$red: #cf1c1c;
+ 
 //background color
 $background-color-orange: $orange;
 $background-color-white: $white;
+$background-color-yellow: $yellow;
+$background-color-green: $green;
+$background-color-sky: $sky;
+$background-color-purple: $purple;
+$background-color-blue: $blue;
+
+
 
 //font color
 $font-color-gray: $gray;
@@ -16,11 +30,13 @@ $font-color-white: $white;
 $font-color-gray_light: $gray_light;
 $font-color-gray_strong: $gray_strong;
 $font-color-orange: $orange;
+$font-color-red: $red;
 
 //border color
 $border-color-gray: $gray;
 $border-color-white-gray: $white_gray;
 $border-color-gray-strong: $gray_strong;
+$border-color-orange: $orange;
 
 //global fontsize
 $font-size-xsamll: 1.0rem;
@@ -31,3 +47,4 @@ $font-size-extra-large: 1.8rem;
 $font-size-2extra-large: 2.0rem;
 $font-size-big: 3.3rem;
 
+ 
